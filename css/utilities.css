@@ -1,40 +1,43 @@
-.flex{
-    display:flex;
-}
-.items-center{
-    align-items: center;
-}
-.justify-between{
-    justify-content:center;
-}
 .btn{
-    padding: 0.5rem 0.5rem;
-    font-size: 1rem;
-    font-family: 'Josefin Sans', serif;
-    font-weight: 700;
-    border:2px solid transparent;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+    font-family: 'Zen Dots', sans-serif;
+    font-weight:400;
+    color: #e9e9e9;
+    background: var(--primary);
+    border:1px solid transparent;
+    border-radius: 25px;
     outline:none;
     cursor:pointer;
-    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease; 
 }
-.btn-primary{
-    font-family: 'Josefin Sans', sans-serif;
-    background:transparent;
-    font-size: 17px;
-    border:2px solid transparent;
-    color:var(--pure);
-}
-.btn-primary:hover{
-    background:transparent;
-    color:var(--tertiary);
+.btn:hover{
+    background:#e0e0e0;
+    color:var(--primary);
     border:1px solid transparent;
-    transition: all .3s ease;
+    
 }
-.flex-1{
-    flex:1;
-}
-.justify-center{
-    justify-content: center;
+.button{
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+    top: 0.5rem;
+    justify-content:center;
+    
 }
 
+.b1{
+    border:1px solid black;
+    border-radius: 20px;
+    background:none;
+    width: fit-content;
+    height: 25px;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.2rem 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
 
